@@ -223,3 +223,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,python,jupyternotebooks
+
+# ignore the credentials file for db
+dbCredentials.py
