@@ -39,6 +39,7 @@ Fachbereich II - Duales Studium Wirtschaft / Technik<br>
 ## Struktur des Repositories
 - Verzeichnisse
      - data : Enthält die zur Analyse verwendeten Datengrundlagen
+     - tableau : Enthält die mittels der Software "tableau" erzeugen tableaus
      - zwischenstände : Enthält Exporte der Zwischenstände des Jupyter Notebooks als HTML-Dateien
 - Dateien
      - BKK-Analyse.ipynb (Jupyter Notebook-Datei) : Das eigentliche Jupyter Notebook und somit der Kern dieses Repositories
