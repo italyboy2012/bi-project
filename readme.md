@@ -19,6 +19,8 @@ Fachbereich II - Duales Studium Wirtschaft / Technik<br>
 - Anaconda mit Python3 (https://www.youtube.com/watch?v=jS4VQx56khc)
 - MySQL community server & workbench (https://dev.mysql.com/downloads/)
 - Jupyter Notebook (über Anaconda)
+- Tableau Prep Builder
+- Tableau Desktop
 
 <a name="Installationsanleitung" /><br>
 ## Installationsanleitung
@@ -33,16 +35,19 @@ Fachbereich II - Duales Studium Wirtschaft / Technik<br>
    ```
    WICHTIG: Ersetze localhost, root und myPassword mit deinen Zugangsdaten zum MySQL community server.
 5. Öffne anschließend das im Hauptverzeichnis enthaltende Jupyter Notebook namens 'BKK-Analyse.ipynb'.
-6. Du bist nun bereit, das Jupyter Notebook zu nutzen.
+6. Du bist nun bereit, das Jupyter Notebook zu nutzen. Befolge die darin enthaltenen Schritte von Anfang bis Ende.
 
 <a name="Struktur-des-Repositories" /><br>
 ## Struktur des Repositories
 - Verzeichnisse
      - data : Enthält die zur Analyse verwendeten Datengrundlagen
-     - tableau : Enthält die mittels der Software "tableau" erzeugen tableaus
+     - excel : Enthält die mittels dem Tabellenkalkulationsprogramm "MS Excel" realisierten Auswertungen
+     - tableau/Desktop : Enthält die mittels der Software Tableau Desktop erzeugen Dashboards
+     - tableau/Prep Builder : Enthält die mittels der Software Tableau Prep Builder tfl-Datei
      - zwischenstände : Enthält Exporte der Zwischenstände des Jupyter Notebooks als HTML-Dateien
 - Dateien
      - BKK-Analyse.ipynb (Jupyter Notebook-Datei) : Das eigentliche Jupyter Notebook und somit der Kern dieses Repositories
+     - biProjekt_OLAP_schema.png (PNG-Datei) : Ein ER-Modell des STAR-Schemas
      - hilfsfunktionen.py (Python-Datei) : Ein Python-Skript mit Hilfsfunktionen, welche im Jupyter Notebook 'BKK-Analyse.ipynb' verwendet werden
      - readme.md (Readme-Datei) : Diese Datei
 
